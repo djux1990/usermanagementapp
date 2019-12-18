@@ -1,0 +1,94 @@
+/* You can add global styles to this file, and also import other style files */
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html,body{
+      height: 100%;
+      width:100%;
+      position: relative;
+      overflow-x: hidden;
+  }
+  *{
+    outline: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #125699;
+  }
+  .base{
+    background: #fff;
+    margin:2em 0;
+    padding: 2em;
+    border-radius: 10px;
+  }
+//forms controls
+.designedinput, .inputbox{
+  padding:0.8em;
+  border-radius:10px;
+  outline: none;
+  border:none;
+  border:1px solid #ccc;
+  font-size:0.8em;
+  background-color: #F7F8F9;
+}
+.designedbutton{
+  background-color: #ff808b;
+    padding:0.7em 1.5em;
+    font-size: 1em;
+    outline: none;
+    border-radius:20px;
+    color:#fff;
+    box-shadow: none;
+    border:none;
+}
+.righttoppos{
+  position: absolute;
+  top: -50px;
+  right:0
+}
+.custombutton{
+  padding:0.7em 1.5em;
+  font-size: 1em;
+  outline: none;
+  border-radius:20px;
+  color:#fff;
+}
+.purplebg{
+  background-color: #8C7FEE;
+}
+.pingbg{
+  background-color: #ff808b;
+}
+.textcolor{
+  color:#333
+}
+.textcenter{
+  text-align:center;
+}
+.bigbtn{
+  width:150px
+}
